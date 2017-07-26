@@ -1,0 +1,19 @@
+version: '3'
+services:
+  backend:
+    image: qnib/plain-influxdb:1.2.4
+    environment:
+     - INFLUXDB_DATABASES=fping
+    volumes:
+     - /opt/influxdb/shared
+    ports:
+     - 8083:8083
+     - 8086:8086
+
+  frontend:
+    image: qnib/plain-grafana4:4.4.1.2
+    ports:
+     - 3000:3000
+    environment:
+     - INFLUXDB_HOST=tasks.backend
+     - INFLUXDB_DB=fping

@@ -1,11 +1,11 @@
 [influxdb]
 
-host = "10.0.3.195"
+host = "127.0.0.1'
 port = "8086"
-db = "ping"
+db = "fping"
 measurement = "ping"
-user = "ping"
-pass = "pong"
+user = "root"
+pass = "root"
 
 [hosts]
 
