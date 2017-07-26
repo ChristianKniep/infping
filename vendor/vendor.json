@@ -1,0 +1,31 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "+xKQqEHpLnfoZU1uX7DH+dd4Q+g=",
+			"path": "github.com/influxdata/influxdb/models",
+			"revision": "fe1167cc44cd065510921dd9ce250cd570255f5d",
+			"revisionTime": "2017-07-25T15:05:12Z"
+		},
+		{
+			"checksumSHA1": "H/J/qLqzUONXIecHHKtVZmxJZZA=",
+			"path": "github.com/influxdata/influxdb/pkg/escape",
+			"revision": "fe1167cc44cd065510921dd9ce250cd570255f5d",
+			"revisionTime": "2017-07-25T15:05:12Z"
+		},
+		{
+			"checksumSHA1": "wCUmFLTcmIbTOvLhnekfNZE4Qzs=",
+			"path": "github.com/influxdb/influxdb/client",
+			"revision": "fe1167cc44cd065510921dd9ce250cd570255f5d",
+			"revisionTime": "2017-07-25T15:05:12Z"
+		},
+		{
+			"checksumSHA1": "zZg0J0MqvnqXVYo644QDvnUinrc=",
+			"path": "github.com/pelletier/go-toml",
+			"revision": "69d355db5304c0f7f809a2edc054553e7142f016",
+			"revisionTime": "2017-06-28T01:26:37Z"
+		}
+	],
+	"rootPath": "github.com/ChristianKniep/infping"
+}
